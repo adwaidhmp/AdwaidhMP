@@ -8,7 +8,7 @@
 
 ## 🚀 About Me
 
-#### **Anupama K**, Immersive Software Engineer, Backend Developer Node.js & TypeScript, Frontend Developer React,Next.js,Full Stack Developer, Web Developer.
+#### I'm a passionate **Full-Stack Developer** specializing in **Python** technologies. I love turning ideas into scalable and interactive web applications. My expertise spans both front-end and back-end development, allowing me to build complete, end-to-end solutions.
 
 <img src="animated/light_1.gif" height="20px" /> Seasoned professional, forward-looking software engineer with 2+ years of experience in creating and executing innovative solutions in immersive fields to enhance business productivity. Highly experienced in Backend Web Development and related technologies, completed 2+ client projects in immersive technologies and consistently recognized for its contributions to the immersive sector and web developments, and skilled at coordinating cross-functional teams in a fast-paced deadline-driven environment.
 
