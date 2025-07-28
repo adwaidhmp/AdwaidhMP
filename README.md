@@ -1,4 +1,4 @@
-# <img src="animated/rabbit.gif" height="30" /> Hey, I'm Anupama K <img src="animated/hands.gif" height="30" />
+# <img src="animated/rabbit.gif" height="30" /> Hey, I'm Adwaidh MP K <img src="animated/hands.gif" height="30" />
 
 ## 🔗 Links
 
