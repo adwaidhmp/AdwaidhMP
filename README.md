@@ -2,7 +2,7 @@
 
 ## 🔗 Links
 
-[![Resume](https://img.shields.io/badge/Resume-%239146FF.svg?logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1cJp2Rrx5JKECv0Elw0j4D7idmOb4DBed/view?usp=sharing) [![Gmail](https://img.shields.io/badge/Gmail-%23FF4500.svg?logo=Gmail&logoColor=white)](mailto:adwaidh7727@gmail.com) [![Portfolio](https://img.shields.io/badge/-Portfolio-FE7A16?logo=Google-chrome&logoColor=white)](https://adwaidhmp.github.io/portfolio-sample/
+[![Resume](https://img.shields.io/badge/Resume-%239146FF.svg?logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1cJp2Rrx5JKECv0Elw0j4D7idmOb4DBed/view?usp=sharing) [![Gmail](https://img.shields.io/badge/Gmail-%23FF4500.svg?logo=Gmail&logoColor=white)](mailto:adwaidh7727@gmail.com) [![Portfolio](https://img.shields.io/badge/-Portfolio-FE7A16?logo=Google-chrome&logoColor=white)](\https://adwaidhmp.github.io/portfolio/
 ) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adwaidh-mp-/) [![LeetCode](https://img.shields.io/badge/LeetCode-FE7A16.svg?logo=leetcode&logoColor=white)](https://leetcode.com/u/adwaidhmp/)
 
 
@@ -62,7 +62,7 @@
 
 ## 🔗 Links
 
-[![Resume](https://img.shields.io/badge/Resume-%239146FF.svg?logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1cJp2Rrx5JKECv0Elw0j4D7idmOb4DBed/view?usp=sharing) [![Gmail](https://img.shields.io/badge/Gmail-%23FF4500.svg?logo=Gmail&logoColor=white)](mailto:adwaidh7727@gmail.com) [![Portfolio](https://img.shields.io/badge/-Portfolio-FE7A16?logo=Google-chrome&logoColor=white)](https://adwaidhmp.github.io/portfolio-sample/
+[![Resume](https://img.shields.io/badge/Resume-%239146FF.svg?logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1cJp2Rrx5JKECv0Elw0j4D7idmOb4DBed/view?usp=sharing) [![Gmail](https://img.shields.io/badge/Gmail-%23FF4500.svg?logo=Gmail&logoColor=white)](mailto:adwaidh7727@gmail.com) [![Portfolio](https://img.shields.io/badge/-Portfolio-FE7A16?logo=Google-chrome&logoColor=white)](https://adwaidhmp.github.io/portfolio/
 ) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adwaidh-mp-/) [![LeetCode](https://img.shields.io/badge/LeetCode-FE7A16.svg?logo=leetcode&logoColor=white)](https://leetcode.com/u/adwaidhmp/)
 
 ---
