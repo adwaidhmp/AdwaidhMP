@@ -1,70 +1,34 @@
-# <img src="animated/rabbit.gif" height="30" /> Hey, I'm Adwaidh MP  <img src="animated/hands.gif" height="30" />
+# Hi 👋, I'm Adwaidh Mp
 
-## 🔗 Links
+### Python Full Stack Developer
 
-[![Resume](https://img.shields.io/badge/Resume-%239146FF.svg?logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/10I1WS7_WxCzwyP4v3RQKoiKCAT2pyTgv/view?usp=sharing) [![Gmail](https://img.shields.io/badge/Gmail-%23FF4500.svg?logo=Gmail&logoColor=white)](mailto:adwaidh7727@gmail.com) [![Portfolio](https://img.shields.io/badge/-Portfolio-FE7A16?logo=Google-chrome&logoColor=white)](https://adwaidhmp.github.io/portfolio/
-) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adwaidh-mp-/) [![LeetCode](https://img.shields.io/badge/LeetCode-FE7A16.svg?logo=leetcode&logoColor=white)](https://leetcode.com/u/adwaidhmp/)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=adwaidhmp&label=Profile views&color=0e75b6&style=flat" alt="adwaidhmp" /> </p>
 
+- 🔭 I'm currently working on **A Python-based full stack fitness application focused on training, nutrition, and user–trainer interaction**
 
-## 🚀 About Me
+- 🌱 I'm currently learning **System design, microservices architecture, and scalable backend patterns**
 
-#### I'm a passionate **Full-Stack Developer** specializing in **Python** technologies. I love turning ideas into scalable and interactive web applications. My expertise spans both front-end and back-end development, allowing me to build complete, end-to-end solutions.
+- 👯 I'm looking to collaborate on **Open source projects related to web development, backend systems, or developer tools**
 
+- 🤝 I'm looking for help with **Advanced system design and real-world backend architecture decisions**
 
-# 🛠️ Tech Stack Skills
+- 💬 Ask me about **React, Django, REST APIs, microservices, and full stack development**
 
-### 💻 Operating System
+- 📫 How to reach me **adwaidh7727@gmail.com**
 
-![windows](https://img.shields.io/badge/windows-%230769AD.svg?style=for-the-badge&logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-%2307405e.svg?style=for-the-badge&logo=Linux&logoColor=white) ![Ubuntu](https://img.shields.io/badge/ubuntu-%23E34F26.svg?style=for-the-badge&logo=ubuntu&logoColor=white)
+- ⚡ Fun fact **I enjoy breaking complex systems just to understand how they work**
 
-### 💻 Languages
+- 👨‍💻 All of my projects are available at **[https://adwaidhmp.github.io/portfolio/](https://adwaidhmp.github.io/portfolio/)**
 
- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+- 📄 Know about my experiences **[https://drive.google.com/file/u/0/d/1vxv1YY6PInsPwotfRErH15vgFeqDFKoi/view?usp=sharing&pli=1](https://drive.google.com/file/u/0/d/1vxv1YY6PInsPwotfRErH15vgFeqDFKoi/view?usp=sharing&pli=1)**
 
-### 💻 Front-End Development
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://github.com/adwaidhmp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="adwaidhmp" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/adwaidh-mp-" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adwaidh-mp-" height="30" width="40" /></a>
+<a href="https://leetcode.com/adwaidhmp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="adwaidhmp" height="30" width="40" /></a>
+</p>
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) 
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) 
-![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) 
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/aws" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=aws" alt="aws" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/bootstrap" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/django" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=django" alt="django" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/figma" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=figma" alt="figma" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/jenkins" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=jenkins" alt="jenkins" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kubernetes" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mongodb" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nginx" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nginx" alt="nginx" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/photoshop" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=photoshop" alt="photoshop" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postgresql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postman" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postman" alt="postman" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/rabbitMQ" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=rabbitmq" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/redis" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=redis" alt="redis" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/redux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=redux" alt="redux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/sqlite" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=sqlite" alt="sqlite" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tailwind" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a></p>
 
-### 💻 Back-End Development
- ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)  
-
-
-<!-- ![graphql](https://img.shields.io/badge/GraphQL-ff3399?style=for-the-badge&logo=graphql&logoColor=white) -->
-
-### 💻 Database
-
- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-
- <!-- ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)  ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)   -->
-
-### 💻 Testing
-
- ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-
-<!-- ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)  ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) -->
-
-### 💻 Design Tools
- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
----
-
-## 🔗 Links
-
-[![Resume](https://img.shields.io/badge/Resume-%239146FF.svg?logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1cJp2Rrx5JKECv0Elw0j4D7idmOb4DBed/view?usp=sharing) [![Gmail](https://img.shields.io/badge/Gmail-%23FF4500.svg?logo=Gmail&logoColor=white)](mailto:adwaidh7727@gmail.com) [![Portfolio](https://img.shields.io/badge/-Portfolio-FE7A16?logo=Google-chrome&logoColor=white)](https://adwaidhmp.github.io/portfolio/
-) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adwaidh-mp-/) [![LeetCode](https://img.shields.io/badge/LeetCode-FE7A16.svg?logo=leetcode&logoColor=white)](https://leetcode.com/u/adwaidhmp/)
-
----
-
-
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
