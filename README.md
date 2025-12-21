@@ -2,7 +2,6 @@
 
 ### Python Full Stack Developer
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=adwaidhmp&label=Profile views&color=0e75b6&style=flat" alt="adwaidhmp" /> </p>
 
 - 🔭 I'm currently working on **A Python-based full stack fitness application focused on training, nutrition, and user–trainer interaction**
 
