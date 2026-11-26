@@ -37,17 +37,21 @@ jobs:
           U: ${{ github.repository_owner }}
           REPO: ${{ github.repository }}
         run: |
+          # The snake step runs in Docker and leaves dist/ owned by root, so
+          # build the published folder in site/ instead.
+          mkdir -p site && cp dist/*.svg site/
+
           C="bg_color=0d1117&title_color=12a08c&icon_color=12a08c&text_color=c9d1d9&border_color=30363d&border_radius=10"
 
           # Download one card. If the service is down, keep yesterday's copy
           # so the README never shows a broken image.
           fetch() {
-            if curl -fsSL --retry 3 --retry-delay 5 --max-time 90 "$2" -o "dist/$1.tmp" && grep -q '<svg' "dist/$1.tmp"; then
-              mv "dist/$1.tmp" "dist/$1"
+            if curl -fsSL --retry 3 --retry-delay 5 --max-time 90 "$2" -o "site/$1.tmp" && grep -q '<svg' "site/$1.tmp"; then
+              mv "site/$1.tmp" "site/$1"
             else
               echo "::warning::Could not refresh $1, keeping the previous copy"
-              rm -f "dist/$1.tmp"
-              curl -fsSL "https://raw.githubusercontent.com/$REPO/output/$1" -o "dist/$1" || echo "::warning::No previous copy of $1"
+              rm -f "site/$1.tmp"
+              curl -fsSL "https://raw.githubusercontent.com/$REPO/output/$1" -o "site/$1" || echo "::warning::No previous copy of $1"
             fi
           }
 
@@ -57,13 +61,13 @@ jobs:
           fetch productive-time.svg "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=$U&theme=github_dark&utcOffset=5.5"
           fetch heatmap-dark.svg    "https://gitascii.com/api/$U?widgets=asciiprofile-heatmap&theme=dark"
           fetch heatmap-light.svg   "https://gitascii.com/api/$U?widgets=asciiprofile-heatmap&theme=light"
-          ls -la dist
+          ls -la site
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: site
           commit_message: Refresh profile stats
           jekyll: false
         env:
