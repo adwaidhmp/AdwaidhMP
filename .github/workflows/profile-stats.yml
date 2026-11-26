@@ -1,0 +1,70 @@
+# Refreshes the images in the README's "GitHub analytics" section once a day.
+# Everything is saved to the `output` branch, so the README loads it from GitHub
+# itself instead of waiting on third-party stats servers on every page view.
+
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # daily at 06:00 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile-stats.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Draw the contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#12a08c
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#12a08c
+
+      - name: Fetch stats cards
+        env:
+          U: ${{ github.repository_owner }}
+          REPO: ${{ github.repository }}
+        run: |
+          C="bg_color=0d1117&title_color=12a08c&icon_color=12a08c&text_color=c9d1d9&border_color=30363d&border_radius=10"
+
+          # Download one card. If the service is down, keep yesterday's copy
+          # so the README never shows a broken image.
+          fetch() {
+            if curl -fsSL --retry 3 --retry-delay 5 --max-time 90 "$2" -o "dist/$1.tmp" && grep -q '<svg' "dist/$1.tmp"; then
+              mv "dist/$1.tmp" "dist/$1"
+            else
+              echo "::warning::Could not refresh $1, keeping the previous copy"
+              rm -f "dist/$1.tmp"
+              curl -fsSL "https://raw.githubusercontent.com/$REPO/output/$1" -o "dist/$1" || echo "::warning::No previous copy of $1"
+            fi
+          }
+
+          fetch stats.svg           "https://github-readme-stats.vercel.app/api?username=$U&show_icons=true&count_private=true&rank_icon=github&ring_color=12a08c&$C"
+          fetch top-langs.svg       "https://github-readme-stats.vercel.app/api/top-langs/?username=$U&layout=donut&langs_count=6&hide=html,css,jupyter%20notebook&$C"
+          fetch streak.svg          "https://streak-stats.demolab.com?user=$U&background=0D1117&border=30363D&stroke=30363D&ring=12A08C&fire=12A08C&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=12A08C&sideLabels=C9D1D9&dates=8B949E&border_radius=10"
+          fetch productive-time.svg "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=$U&theme=github_dark&utcOffset=5.5"
+          fetch heatmap-dark.svg    "https://gitascii.com/api/$U?widgets=asciiprofile-heatmap&theme=dark"
+          fetch heatmap-light.svg   "https://gitascii.com/api/$U?widgets=asciiprofile-heatmap&theme=light"
+          ls -la dist
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Refresh profile stats
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
